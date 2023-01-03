@@ -4,6 +4,7 @@ Python3 "stub" meant to wrap the `__main__.py` file of a standard module, for mo
 ## Development
 - `python3 -m PyInstallerStub` executes the project.
 - `PyInstallerStub\__main__.py` is the entry point of the app. Typically, you will start your edits, there.
+- `PyInstallerStub\__init__.py` contains the current version number of your app. Many people like to add globals to the package `__init__.py`; Feel free to add your own, when using this template.
 - Optional: You may want to all occurences of `PyInstallerStub` in the python module files/filenames to whatever you want to name your project.
 
 ## When ready to bundle binary
